@@ -140,6 +140,24 @@
 /*   E N D                     N A V B A R                         S E C T I O N  */
 
 /*  S T A R T                  H O M E                             S E C T I O N  */
+@media screen and (max-width: 450px) {
+  header{
+    justify-content: space-between !important;
+    & .container {
+      margin-top: 100px !important;
+      margin-bottom: 24px !important;
+    }
+
+    & .header-desc {
+      margin-top: 24px !important;
+    }
+
+    & .title {
+      margin-bottom: 24px !important;
+    }
+  }
+}
+
 @media screen and (max-width: 576px) {
   #home {
     padding: 0 !important;
@@ -154,6 +172,34 @@
       font-size: 1rem !important;
       font-weight: 300 !important;
     }
+  }
+}
+
+@media screen and (max-width: 576px) {
+  p {
+    line-height: 2;
+  }
+  li {
+    line-height: 1.75;
+  }
+
+  #home {
+    padding: 0 !important;
+    height: calc(95vh - 3.5rem) !important;
+    min-height: 95vh !important;
+
+    & p {
+      font-size: 1rem !important;
+    }
+
+    & q {
+      font-size: 1rem !important;
+      font-weight: 300 !important;
+    }
+  }
+
+  & .btn-message {
+    margin-block: 1.5rem !important;
   }
 }
 
@@ -199,7 +245,45 @@
 /*   E N D                     H O M E                             S E C T I O N  */
 
 /*  S T A R T                  F E A T U R E S                            S E C T I O N  */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 450px ) {
+  #features {
+
+
+    & h2 {
+      margin-bottom: 2rem !important;
+    }
+
+    & h3 {
+      font-size: 1.25rem !important;
+      padding-top: 0.75rem !important;
+      margin-bottom: 0.75rem !important;
+    }
+
+    & p {
+      font-size: 0.75rem !important;
+      line-height: 1.75;
+      
+    }
+
+    & .item {
+      height: fit-content !important;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: space-around !important;
+    }
+
+    & .card-item .icon {
+      font-size: 1.5rem !important;
+    }
+
+    & .card-item p {
+      margin-bottom: 16px !important;
+      text-align: center !important;
+    }
+  }
+}
+
+@media screen and (min-width:500px) and (max-width: 576px) {
   #features {
     & h2 {
       margin-bottom: 2.5rem !important;
@@ -358,10 +442,14 @@
       padding: 1rem !important;
     }
   }
-}
+} 
 /*   E N D                     F A Q                   S E C T I O N  */
 
 /*  S T A R T                  Y O U R  J O U R N E Y             S E C T I O N  */
+@media screen and (min-width: 300px) and (max-width: 450px ) {
+
+}
+
 @media screen and (max-width: 574px) {
   .timeline-item,
   .timeline-content,

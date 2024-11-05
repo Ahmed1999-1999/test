@@ -318,70 +318,6 @@ nav .collapse .control a:hover {
 }
 /*   E N D                     H O M E                         S E C T I O N  */
 
-/*   S T A R T                 A B O U T                       S E C T I O N  */
-/*
-#about {
-  padding: 5rem 0;
-  background-color: var(--secondary-bg-color);
-  background-image: url(../img/about-bg.png);
-  background-position: center center;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  min-height: 75vh;
-}
-
-#about::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-color: var(--secondary-bg-color);
-  opacity: 0.6;
-  z-index: 0;
-}
-
-#about .container {
-  position: relative;
-  z-index: 1;
-}
-
-#about .container .quote::before {
-  content: open-quote;
-}
-#about .container .quote::after {
-  content: close-quote;
-}
-
-
-
-#about .container .item .icon {
-  padding: 3.75rem 0 1.875rem;
-}
-
-#about .container .item .icon .bi {
-  color: #fff;
-  font-size: 1.875rem;
-  padding: 8px 16px;
-  background-color: transparent;
-  border: .5rem solid #cde1f8;
-  border-radius: 50%;
-}
-
-#about .container .item .count {
-  color: #fff;
-  font-size: 2rem;
-}
-
-#about .container .item p {
-  color: #fff;
-  font-size: 1rem;
-}
-*/
-/*   E N D                     A B O U T                       S E C T I O N  */
-
 /*   S T A R T                 F E A T U R E S                        S E C T I O N  */
 #features {
   background-color: var(--secondary-bg-color);
@@ -581,7 +517,7 @@ nav .collapse .control a:hover {
 
 #journey .timeline {
   font-size: 14px;
-  width: 90%;
+  width: 80%;
   margin: 30px auto;
   line-height: 1.5;
   position: relative;
@@ -739,55 +675,6 @@ margin-inline-end: 0px !important;
     margin-inline-start: -30px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* #journey .card-item{
-  margin-inline: 0;
-}
-
-#journey .card-item .item{
-  background-color: var(--main-color);
-  padding: 1.5rem 0.75rem;
-  border: .0625rem solid var(--main-color);
-  border-radius: .5rem;
-  min-height: 12.5rem;
-}
-
-#journey h5{
-  color: #fffcfc;
-  font-size: 24px;
-}
-
-#journey .card-item .item ul{
-  padding: .25rem;
-  list-style-type: disc;
-}
-
-#journey .card-item .item ul li {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-inline-start: 0.5rem;
-  margin-bottom: 0.8rem;
-} */
-
 /*   E N D                     Y O U R   J O U R N E Y                     S E C T I O N  */
 
 /*   S T A R T                     C O N T A C T                        S E C T I O N  */
@@ -880,3 +767,69 @@ margin-inline-end: 0px !important;
   padding: 1rem 0;
 }
 /*   E N D                     F O O T E R                         S E C T I O N  */
+
+
+/* LOADER */
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000000;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-bg-color);
+  /* transition: opacity 0.1s, visibility 0.1s; */
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.lds-ring {
+  /* change color here */
+  color: var(--main-color)
+}
+.lds-ring,
+.lds-ring div {
+  box-sizing: border-box;
+}
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid currentColor;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: currentColor transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

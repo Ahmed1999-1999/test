@@ -29,8 +29,6 @@ faqsContainer.addEventListener("click", (e) => {
   question.classList.add("active");
 });
 /*   E N D                     F A Q                        S E C T I O N  */
-
-
 const language = {
   ar: {
     navSlogan: `
@@ -381,6 +379,20 @@ const language = {
       "All rights reserved | [Website Name] Litigation Financing Company © 2024",
   },
 };
+
+//! LOADER
+const loader = document.querySelector(".loader");
+
+const handleLoader = () => {
+  loader.classList.add("loader--hidden");
+  // loader.addEventListener("transitionend", () => {
+  //   document.body.removeChild(loader);
+  // });
+}
+
+window.addEventListener("load", () => {
+  setTimeout(handleLoader,1000)
+});
 
 
 

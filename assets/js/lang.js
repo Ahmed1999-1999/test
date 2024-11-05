@@ -255,10 +255,15 @@ switchLanguageBtn.addEventListener("click", () => {
     journeyStepTwoTitle.parentNode.classList.replace("right", "left");
     journeyStepFourTitle.parentNode.classList.replace("right", "left");
   }
-
-  document.documentElement.lang = localStorage.lang;
-  document.documentElement.dir = localStorage.dir;
+  loader.classList.remove("loader--hidden");
+  console.log(loader.classList);
+  setTimeout(handleLoader, 500);
+  setTimeout(handleLanguage, 150)
   controlLanguage(localStorage.lang);
 })
 
+const handleLanguage = () => {
+  document.documentElement.lang = localStorage.lang;
+  document.documentElement.dir = localStorage.dir;
+}
 controlLanguage(localStorage.lang);
