@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html >
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,74 +30,15 @@
   </head>
   <body data-bs-spy="scroll" data-bs-target="#navbar">
     <!-- S T A R T                  N A V B A R                             S E C T I O N-->
-    <!-- <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
-      <div class="container-lg">
-        <a class="navbar-brand ms-3" href="#">
-          <img src="assets/img/logo.ico" alt="logo" class="ms-2" />
-          <span class="fw-bold fs-6 d-none d-xl-inline">حلول تمويل التقاضي التي تثق بها</span>
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#home"
-                >من نحن</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#terms"
-                >الشروط و الأحكام</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#faq"
-                >الأسئلة الشائعة</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#start-now"
-                >ابدأ الآن</a
-              >
-            </li>
-            <li class="nav-item dropdown align-self-end">
-              <a
-                class="nav-link dropdown-toggle align-self-end"
-                href="#"
-                id="languageDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Language
-              </a>
-              <ul
-                class="dropdown-menu text-center align-self-end"
-                aria-labelledby="languageDropdown"
-              >
-                <li><a class="dropdown-item" href="#">العربية</a></li>
-                <li><a class="dropdown-item" href="#">English</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav> -->
-
     <nav class="navbar navbar-expand-lg sticky-top" id="navbar">
       <div class="container-lg">
-        <a class="navbar-brand ms-3" href="#">
-          <img src="assets/img/logo.ico" alt="logo" class="ms-2" />
-          <span class="fw-bold fs-6 d-none d-xl-inline slogan">حلول تمويل التقاضي التي تثق بها</span>
+        <a class="navbar-brand ms-3 d-flex justify-content-center" href="#">
+          <img src="assets/img/logo.ico" alt="logo" class="brand-icon ms-2" />
+          <span class="nav-slogan slogan d-inline-flex flex-column">
+              <span class="fw-bold">حلول تمويل التقاضي</span>
+              <br/>
+              <span class="fw-bold">  التي تثق بها</span>
+          </span>
         </a>
         <button
           class="navbar-toggler"
@@ -111,10 +52,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 ms-5 mb-lg-0">
+          <ul class="navbar-nav navbar-items ms-auto mb-2  mb-lg-0">
             <li class="nav-item">
               <a class="nav-link nav-link-who" aria-current="page" href="#home"
-                >من نحن</a
+                ></a
               >
             </li>
             <li class="nav-item">
@@ -134,15 +75,15 @@
             </li>
           </ul>
           <div class="control">
-            <div class="">
-              <span class="ms-3 language-box">
+            <div>
+              <span class="language-box">
                 <span class="language">
-                  English
+                  <span class="">English</span>
+                  <i class="fa-solid fa-globe me-1"></i>
                 </span>
-                <i class="fa-solid fa-globe me-1"></i>
               </span>
               <a href="#" class="sign-up">
-                سجل الآن
+                <span>سجل الآن</span>
                 <i class="fa-solid fa-arrow-left me-1"></i>
               </a>
             </div>
@@ -150,32 +91,30 @@
         </div>
       </div>
     </nav>
-
-
-
     <!--  E N D                     N A V B A R                             S E C T I O N-->
+      
     <!-- S T A R T                  H O M E                            S E C T I O N-->
     <header class="d-flex flex-column justify-content-center align-items-center" id="home">
       <div class="container text-center text-primary-emphasis mb-5">
-        <h2 class="display-2 fw-semibold mb-5 main-title">تمويل التقاضي</h2>
-        <p class="h4 fw-medium display-6 mb-4 secondary-title">
+        <h2 class="display-2 fw-semibold mb-5 home-main-title">تمويل التقاضي</h2>
+        <p class="h4 fw-medium display-6 mb-4 home-secondary-title">
           اربح قضيتك الآن... و ادفع لاحقًا
         </p>
-        <a href="#contact" class="btn btn-message py-3 px-4 ms-3 btn-start-now">
-          <span class="fs-3">ابدأ الان</span>
+        <a href="#start-now" class="btn btn-message mx-2 py-3 px-4 ms-3 btn-start-now">
+          <span class="fs-3 ">ابدأ الان</span>
           <i class="fa-solid fa-arrow-left fs-4"></i>
         </a>
         
-        <a class="btn btn-sign-up py-3 px-4 me-3">
-          <span class="fs-3 btn-login">تسجيل الدخول</span>
+        <a class="btn btn-sign-up py-3 px-4 mx-2 btn-login">
+          <span class="fs-3">تسجيل الدخول</span>
           <i class="fa-solid fa-arrow-left fs-4"></i>
         </a>
       </div>
       <div class="container text-center align-content-center mt-5">
         <div class="title text-center mb-5">
-          <h2 class="fw-bolder display-3 company-title">[اسم الشركة]</h2>
+          <h2 class="fw-bolder display-3 home-company-name">[اسم الشركة]</h2>
         </div>
-        <p class="fs-4 fw-semibold pb-3 text-sm-center company-desc">شركة [اسم الشركة] تأسست في [سنة التأسيس] لتقديم خدمات تمويل التقاضي للأفراد والشركات. نحن نؤمن بأن العدالة حق للجميع، ونسعى لدعم عملائنا في مواجهة التحديات القانونية عبر توفير تمويل موثوق وعادل.</p>
+        <p class="fs-4 fw-semibold pb-3 text-sm-center home-company-desc">شركة [اسم الشركة] تأسست في [سنة التأسيس] لتقديم خدمات تمويل التقاضي للأفراد والشركات. نحن نؤمن بأن العدالة حق للجميع، ونسعى لدعم عملائنا في مواجهة التحديات القانونية عبر توفير تمويل موثوق وعادل.</p>
         <!-- <q class="quote fs-4 fw-semibold">لا ينبغي أن تكون العدالة المتساوية أمام القانون مجرد فرضية نظرية. ولكن في العصر الحديث، أصبحت الدعاوى المدنية باهظة التكلفة على نحو متزايد، مما أدى إلى خلق حواجز فعلية أمام نظام العدالة. ويواجه المدعون خيار الاستدانة لتمويل رسوم التقاضي المرتبطة برفع دعوى قضائية، مثل تكلفة أتعاب المحامين وأتعاب الشهود الخبراء، أو الانسحاب تمامًا لأنهم لا ينافسون خصومهم الممولين. إن ظهور ممولي التقاضي يوفر حلاً يضع المتقاضين على أرضية اقتصادية متساوية ويسمح للنزاعات التجارية بالمضي قدماً على أساس مزاياها.</q> -->
       </div>
     </header>
@@ -195,11 +134,11 @@
         <div class="row cards gx-5  mx-auto">
           <div class="card-item col-lg-6 col-md-6 col-sm-12 mt-5">
             <div class="item text-center rounded-4 py-2 text-center">
-              <h3 class="py-2 fs-1 fw-bold feature-a-title">تمويل التقاضي</h3>
+              <h3 class="py-2 fs-1 fw-bold features-feature-a-title">تمويل التقاضي</h3>
               <div class="icon">
                 <i class="fa-solid fa-coins"></i>
               </div>
-              <p class="text-muted fs-5 text-wrap w-75 mx-auto pt-3 mb-5 feature-a-desc">
+              <p class="text-muted fs-5 text-wrap w-75 mx-auto pt-3 mb-5 features-feature-a-desc">
                 نقدم تمويلًا لتغطية تكاليف المحامين، الخبراء، والرسوم القضائية. سواء كنت فردًا أو شركة، نحن هنا لدعمك.
               </p>
             </div>
@@ -207,11 +146,11 @@
 
           <div class="card-item col-lg-6 col-md-6 col-sm-12 mt-5">
             <div class="item text-center rounded-4 py-2 text-center">
-              <h3 class="py-2 fs-1 fw-bold feature-b-title">الاستشارات القانونية</h3>
+              <h3 class="py-2 fs-1 fw-bold features-feature-b-title">الاستشارات القانونية</h3>
               <div class="icon">
                 <i class="fa-solid fa-scale-balanced"></i>
               </div>
-              <p class="text-muted fs-5 text-wrap w-75 mx-auto pt-3 feature-b-desc">
+              <p class="text-muted fs-5 text-wrap w-75 mx-auto pt-3 features-feature-b-desc">
                 فريقنا من المحامين المتخصصين يقدم استشارات قانونية مجانية لمساعدتك في فهم حقوقك وتحديد أفضل استراتيجية قانونية.
               </p>
             </div>
@@ -219,11 +158,11 @@
 
           <div class="card-item col-lg-6 col-md-6 col-sm-12 mt-5">
             <div class="item text-center rounded-4 py-2 text-center">
-              <h3 class="py-2 fs-1 fw-bold feature-c-title">تقييم القضايا</h3>
+              <h3 class="py-2 fs-1 fw-bold features-feature-c-title">تقييم القضايا</h3>
               <div class="icon">
                 <i class="fa-solid fa-list-check"></i>
               </div>
-              <p class="text-muted fs-5 text-wrap w-75 mx-auto pt-3 feature-c-desc">
+              <p class="text-muted fs-5 text-wrap w-75 mx-auto pt-3 features-feature-c-desc">
                 نقوم بتقييم شامل لقضيتك لتحديد مدى قوتها وفرص النجاح قبل البدء في التمويل.
               </p>
             </div>
@@ -231,11 +170,11 @@
 
           <div class="card-item col-lg-6 col-md-6 col-sm-12 mt-5">
             <div class="item text-center rounded-4 py-2 text-center">
-              <h3 class="py-2 fs-1 fw-bold feature-d-title">إدارة المخاطر</h3>
+              <h3 class="py-2 fs-1 fw-bold features-feature-d-title">إدارة المخاطر</h3>
               <div class="icon">
                 <i class="fa-solid fa-triangle-exclamation"></i>
               </div>
-              <p class="text-muted fs-5 text-wrap w-75 mx-auto pt-3 feature-d-desc">
+              <p class="text-muted fs-5 text-wrap w-75 mx-auto pt-3 features-feature-d-desc">
                 نقدم حلولًا لإدارة المخاطر القانونية لضمان حماية مصالحك طوال عملية التقاضي.
               </p>
             </div>
@@ -272,15 +211,17 @@
         </div>
 
         <div class="usage">
-          <h4 class="terms-useage-title">استخدام المنصة لتنفيذ العمليات:</h4>
-          <p class="mb-3">استخدام المنصة لتنفيذ العمليات من أجل استخدام الخدمات المقدمة على منصتنا، يجب عليكم استيفاء متطلبات الشركة الخاصة بقبول العملاء، وإنشاء حساب على المنصة يسمح لكم باستخدامها، والدخول في اتفاقية وكالة الاستثمار الرئيسة. وسنحتفظ بجميع الأموال التي حولتموها لنا في حساب إدارة الودائع. وكذلك، سيتم الاحتفاظ بأي مبلغ في حساب إدارة الودائع وفقًا لشروط اتفاقية وكالة الاستثمار الرئيسة، من اجل تنفيذ العمليات بناءً على تعليماتك. سيتم إتاحة تفاصيل حجم الأموال التي قمتم بإيداعها في حساب إدارة الودائع لتمويل استثماراتكم في الودائع لأجل وجميع الاستثمارات التي تمت، وعوائد هذا الحساب، في حساب المنصة. ويخضع حساب إدارة الودائع وحساب (حسابات) الوديعة لأجل لشروط وأحكام البنوك التي تم فتح هذه الحسابات لديها.</p>
-          <p class="mb-3">مع مراعاة اتفاقية وكالة الاستثمار الرئيسة وشروط الاستثمار في الودائع لأجل، يحق لكم الحصول على جميع المبالغ التي أودعتموها أو تم إيداعها بالنيابة عنكم في حساب إدارة الودائع أو في أي حساب وديعة لأجل.</p>
-          <p class="mb-3">نحتفظ بحقنا في إغلاق أي حساب وديعة لأجل أو حساب إدارة الودائع الذي لا توجد أي عمليات متعلقة به، من دون إشعار مسبق ووفقًا لتقديرنا المطلق.</p>
-          <p class="mb-3">يجب عليكم تزويدنا بجميع التعليمات الخاصة بتنفيذ العمليات عبر المنصة، وسوف نسعى بشكل معقول لتنفيذ تلك العمليات بالنيابة عنكم وفقًا لهذه الشروط ووفقًا للإجراءات المطلوبة من البنك ذي الصلة. وبمجرد تنفيذها، سيتم مشاركة تأكيد تفاصيل العملية معك عبر المنصة. وسيتم أيضا إتمام جميع الدفعات من حساب الوديعة لأجل أو إليه، أو من الحساب البنكي للعميل إلى حساب إدارة الودائع أو منه. وكذلك، سيتم القيام بجميع العمليات بالنيابة عنكم من الرصيد المتوفر في حساب المنصة الخاص بكم.</p>
-          <p class="mb-3">وكذلك، أنتم تقرون وتوافقون على أن تنفيذ أي من تعليماتكم أو العمليات ذات الصلة خاضع لأنظمة ولوائح ساما، وأننا لن نكون مسؤولين تجاهكم عن أي انقطاع، أو توقف للخدمة، أو أي إخفاق في تنفيذ أي تعليمات والتي من شأنها أن تضعنا في موقف مخالف لمتطلبات الامتثال لأي من هذه الأنظمة واللوائح. كما تقرون انكم قرأتم وفهمتم متطلبات وشروط ساما المتعلقة بالمستلمين/المستخدمين لخدمات جمع الودائع لأجل، والمنصة، وتوافقون في جميع الأوقات على الامتثال بهذه القيود والالتزام بها.</p>
-          <p class="mb-3">نحن لا نقدم لكم أي ضمانات متعلقة بنجاح تنفيذ أي عملية أو مستوى الربح الذي يمكن تحقيقه من خلال كل عملية يتم تنفيذها بالنيابة عنكم.</p>
-          <p class="mb-3">قد يتم تنفيذ العمليات فعليًا بأسعار وشروط مختلفة، حيث أن الأسعار المعروضة على المنصة هي أسعار إرشادية فقط. عندما يكون معدل الربح في وقت تنفيذ العملية أقل من ذلك المعروض على المنصة، سنبذل جهودًا بشكل معقول للاتصال بكم لتأكيد ما إذا كنتم لا تزالون ترغبون في إتمام العملية، ولن نتحمل أي مسؤولية تجاهكم عند اختلاف معدلات الربح عن تلك الموجودة في المنصة.</p>
-          <P class="mb-3">نقوم بتحديث هذه الشروط من وقت لآخر. في كل مرة ترغب في زيارة أو استخدام موقعنا، يرجى مراجعة هذه الشروط للتأكد من فهمك للشروط التي تنطبق في ذلك الوقت.</P>
+          <h4 class="terms-usage-title">استخدام المنصة لتنفيذ العمليات:</h4>
+          <ul class="my-1 terms-usage-content">
+            <li>استخدام المنصة لتنفيذ العمليات من أجل استخدام الخدمات المقدمة على منصتنا، يجب عليكم استيفاء متطلبات الشركة الخاصة بقبول العملاء، وإنشاء حساب على المنصة يسمح لكم باستخدامها، والدخول في اتفاقية وكالة الاستثمار الرئيسة. وسنحتفظ بجميع الأموال التي حولتموها لنا في حساب إدارة الودائع. وكذلك، سيتم الاحتفاظ بأي مبلغ في حساب إدارة الودائع وفقًا لشروط اتفاقية وكالة الاستثمار الرئيسة، من اجل تنفيذ العمليات بناءً على تعليماتك. سيتم إتاحة تفاصيل حجم الأموال التي قمتم بإيداعها في حساب إدارة الودائع لتمويل استثماراتكم في الودائع لأجل وجميع الاستثمارات التي تمت، وعوائد هذا الحساب، في حساب المنصة. ويخضع حساب إدارة الودائع وحساب (حسابات) الوديعة لأجل لشروط وأحكام البنوك التي تم فتح هذه الحسابات لديها.</li>
+            <li>مع مراعاة اتفاقية وكالة الاستثمار الرئيسة وشروط الاستثمار في الودائع لأجل، يحق لكم الحصول على جميع المبالغ التي أودعتموها أو تم إيداعها بالنيابة عنكم في حساب إدارة الودائع أو في أي حساب وديعة لأجل.</li>
+            <li>نحتفظ بحقنا في إغلاق أي حساب وديعة لأجل أو حساب إدارة الودائع الذي لا توجد أي عمليات متعلقة به، من دون إشعار مسبق ووفقًا لتقديرنا المطلق.</li>
+            <li>يجب عليكم تزويدنا بجميع التعليمات الخاصة بتنفيذ العمليات عبر المنصة، وسوف نسعى بشكل معقول لتنفيذ تلك العمليات بالنيابة عنكم وفقًا لهذه الشروط ووفقًا للإجراءات المطلوبة من البنك ذي الصلة. وبمجرد تنفيذها، سيتم مشاركة تأكيد تفاصيل العملية معك عبر المنصة. وسيتم أيضا إتمام جميع الدفعات من حساب الوديعة لأجل أو إليه، أو من الحساب البنكي للعميل إلى حساب إدارة الودائع أو منه. وكذلك، سيتم القيام بجميع العمليات بالنيابة عنكم من الرصيد المتوفر في حساب المنصة الخاص بكم.</li>
+            <li>وكذلك، أنتم تقرون وتوافقون على أن تنفيذ أي من تعليماتكم أو العمليات ذات الصلة خاضع لأنظمة ولوائح ساما، وأننا لن نكون مسؤولين تجاهكم عن أي انقطاع، أو توقف للخدمة، أو أي إخفاق في تنفيذ أي تعليمات والتي من شأنها أن تضعنا في موقف مخالف لمتطلبات الامتثال لأي من هذه الأنظمة واللوائح. كما تقرون انكم قرأتم وفهمتم متطلبات وشروط ساما المتعلقة بالمستلمين/المستخدمين لخدمات جمع الودائع لأجل، والمنصة، وتوافقون في جميع الأوقات على الامتثال بهذه القيود والالتزام بها.</li>
+            <li>نحن لا نقدم لكم أي ضمانات متعلقة بنجاح تنفيذ أي عملية أو مستوى الربح الذي يمكن تحقيقه من خلال كل عملية يتم تنفيذها بالنيابة عنكم.</li>
+            <li>قد يتم تنفيذ العمليات فعليًا بأسعار وشروط مختلفة، حيث أن الأسعار المعروضة على المنصة هي أسعار إرشادية فقط. عندما يكون معدل الربح في وقت تنفيذ العملية أقل من ذلك المعروض على المنصة، سنبذل جهودًا بشكل معقول للاتصال بكم لتأكيد ما إذا كنتم لا تزالون ترغبون في إتمام العملية، ولن نتحمل أي مسؤولية تجاهكم عند اختلاف معدلات الربح عن تلك الموجودة في المنصة.</li>
+            <li>نقوم بتحديث هذه الشروط من وقت لآخر. في كل مرة ترغب في زيارة أو استخدام موقعنا، يرجى مراجعة هذه الشروط للتأكد من فهمك للشروط التي تنطبق في ذلك الوقت.</li>
+          </ul>
         </div>
         
         <div class="disclaimer">
@@ -427,16 +368,68 @@
     <section id="journey" class="py-5">
       <div class="container">
         <div class="title text-center mb-5">
-          <h2 class="fw-bolder display-3 mb-3 journey__title">رحلتك معنا</h2>
+          <h2 class="fw-bolder display-3 mb-3 journey-title">رحلتك معنا</h2>
         </div>
-    
-        <div class="row cards g-5 mx-auto align-items-center">
 
+        <div class="timeline">
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="assets/img/form-icon.svg" alt="form-icon" />
+            </div>
+            <div class="timeline-content right">
+              <h3 class="journy-step-one-title">تقديم الطلب اونلاين</h3>
+              <p class="journy-step-one-content">
+                املأ الطلب بكل بسهولة
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="assets/img/analytics-icon.svg" alt="analytics-icon" />
+            </div>
+            <div class="timeline-content left">
+              <h3 class="journy-step-two-title">تقييم الطلب</h3>
+              <p class="journy-step-two-content">
+                توفير المستندات اللازمة لمراجعة جدوى وعدالة المطالبة من قبل [اسم الشركة].
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="assets/img/lawyer-icon.svg" alt="lawyer-icon" />
+            </div>
+            <div class="timeline-content right">
+              <h3 class="journy-step-three-title">تقديم العرض التمويلي و إختيار المحامي</h3>
+              <p class="journy-step-three-content">
+                إحالة الملف لمكتب المحاماة لتقديم الأستراتيجية المقترحة و الاتفاق على نسبة النجاح مع العميل والبدء بتقديم الخدمة ودفع التكاليف.</p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <img src="assets/img/agreement-icon.svg" alt="agreement-icon" />
+            </div>
+            <div class="timeline-content left">
+              <h3 class="journy-step-four-title"> توقيع الاتفاقية الثلاثية</h3>
+              <p class="journy-step-four-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+                corporis blanditiis
+              </p>
+            </div>
+          </div>
+
+        </div>
+        
+    
+        <!-- <div class="row cards g-5 mx-auto align-items-center">
           <div class="card-item col-lg-6 col-12  mt-5">
             <div class="item rounded-4 d-flex flex-column ">
               <h5 class="py-2 fw-bold text-center mb-3 journey-step-one__title">1&#41; تقديم الطلب اونلاين</h5>
               <ul class="text-muted mx-2 journey-step-one__desc">
-                <!-- <li>املأ الطلب بكل بسهولة من <a href="#contact" class="text-decoration-underline">هنا.</a></li> -->
+                <li>املأ الطلب بكل بسهولة من <a href="#contact" class="text-decoration-underline">هنا.</a></li>
                 <li>املأ الطلب بكل بسهولة</li>
               </ul>
             </div>
@@ -470,7 +463,7 @@
                 <li>?????????????????????</li>
               </ul>
             </div>
-          </div>
+          </div> -->
 
         </div>
         
@@ -483,10 +476,10 @@
     <div class="container">
 
       <div class="title text-center mb-5">
-          <h2 class="fw-bolder display-3 mb-3 start-now__title">ابدأ الآن</h2>
+          <h2 class="fw-bolder display-3 mb-3 start-now--title">ابدأ الآن</h2>
       </div>
 
-      <span class="my-3 text-muted start-now__desc">*لطلب الخدمة الرجاء ملء المعلومات أدناه:</span>
+      <span class="my-3 text-muted start-now--desc">*لطلب الخدمة الرجاء ملء المعلومات أدناه:</span>
       <div class="form w-100 mx-auto mb-3">
         <form action="" method="POST" class="mx-auto w-75">
           <div class="fields row">
@@ -511,27 +504,27 @@
             </div>
 
             <div class="clame-value col-lg-4">
-              <select id="claim_value" name="claim_value" class="text-center" required="">
-                <option class="start-now__value1" value="">قيمة المطالبة</option>
-                <option class="start-now__value2" value="أقل من 500,000 ريال سعودي	">أقل من 500,000 ريال سعودي	</option>
-                <option class="start-now__value3" value="500,000 إلى 999,000 ريال سعودي">500,000 إلى 999,000 ريال سعودي</option>
-                <option class="start-now__value4" value="1-5 مليون ريال سعودي">1-5 مليون ريال سعودي</option>
-                <option class="start-now__value5" value="5-10 مليون ريال سعودي">5-10 مليون ريال سعودي</option>
-                <option class="start-now__value6" value="10-50 مليون ريال سعودي">10-50 مليون ريال سعودي</option>
-                <option class="start-now__value7" value="50-500 مليون ريال سعودي">50-500 مليون ريال سعودي</option>
-                <option class="start-now__value8" value="فوق 500 مليون ريال سعودي">فوق 500 مليون ريال سعودي</option>
+              <select id="claim_value--select" name="claim_value" class="text-center start-now--values" required="">
+                <option class="start-now--value1" value="">قيمة المطالبة</option>
+                <option class="start-now--value2" value="أقل من 500,000 ريال سعودي	">أقل من 500,000 ريال سعودي</option>
+                <option class="start-now--value3" value="500,000 إلى 999,000 ريال سعودي">500,000 إلى 999,000 ريال سعودي</option>
+                <option class="start-now--value4" value="1-5 مليون ريال سعودي">1-5 مليون ريال سعودي</option>
+                <option class="start-now--value5" value="5-10 مليون ريال سعودي">5-10 مليون ريال سعودي</option>
+                <option class="start-now--value6" value="10-50 مليون ريال سعودي">10-50 مليون ريال سعودي</option>
+                <option class="start-now--value7" value="50-500 مليون ريال سعودي">50-500 مليون ريال سعودي</option>
+                <option class="start-now--value8" value="فوق 500 مليون ريال سعودي">فوق 500 مليون ريال سعودي</option>
               </select>
             </div>
 
             <button class="btn btn-submit d-inline mx-auto" id="" type="submit">
-              <span class="label">احجز الآن</span>
+              <span class="label start-now--submit">احجز الآن</span>
             </button>
         </form>
       </div>
 
     </div>
-    <p class="text-muted">*لا نقبل المطالبات التي تقل قيمتها عن ٥٠٠ ألف ريال سعودي</p>
-    <p class="text-muted">*بإرسال هذا النموذج، فإنك توافق على أن يتم الاتصال بك إما مباشرة أو من خلال أحد شركاء العمل لدينا</p>
+    <p class="text-muted start-now--warning-a">*لا نقبل المطالبات التي تقل قيمتها عن 500 ألف ريال سعودي</p>
+    <p class="text-muted start-now--warning-b">*بإرسال هذا النموذج، فإنك توافق على أن يتم الاتصال بك إما مباشرة أو من خلال أحد شركاء العمل لدينا</p>
     </section>
   <!-- <div class="container">
         <div class="title text-center mb-5">
@@ -598,18 +591,18 @@
               </a>
             </div>
             <div class="info mt-2">
-              <span class="text-white-50 d-block mb-2">شركة [اسم الشركة] لتمويل التقاضي</span>
-              <span class="text-white-50 d-block mb-2">سجل تجاري رقم [رقم السجل التجاري]</span>
+              <span class="text-white-50 d-block mb-2 footer-slogan">شركة [اسم الشركة] لتمويل التقاضي</span>
+              <span class="text-white-50 d-block mb-2 footer-reg">سجل تجاري رقم [رقم السجل التجاري]</span>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4  d-flex flex-column justify-content-between py-4 text-center">
-            <a class="fs-5 fw-semibold" href="#home">عن [اسم الشركة]</a>
-            <a class="fs-5 fw-semibold" href="#terms">الشروط و الأحكام</a>
-            <a class="fs-5 fw-semibold" href="#faq">الأسئلة الشائعة</a>
-            <a class="fs-5 fw-semibold" href="#contact">ابدأ الآن</a>
+            <a class="fs-5 fw-semibold footer-link-who" href="#home">عن [اسم الشركة]</a>
+            <a class="fs-5 fw-semibold footer-link-terms" href="#terms">الشروط و الأحكام</a>
+            <a class="fs-5 fw-semibold footer-link-faq" href="#faq">الأسئلة الشائعة</a>
+            <a class="fs-5 fw-semibold footer-link-start" href="#contact">ابدأ الآن</a>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-4  d-flex flex-column justify-content-between py-4 text-center">
-            <h4 class="fs-5 fw-semibold mb-4">التواصل</h4>
+            <h4 class="fs-5 fw-semibold mb-4 footer-contact">التواصل</h4>
             <p class="contact-number fs-6 fw-normal">0000000000</p>
             <p class="contact-email fs-6 fw-normal">info@company.com</p>
             <ul class="social d-flex flex-row justify-content-center">
@@ -639,7 +632,7 @@
         </div>
         <hr>
         <div class="copyright d-flex justify-content-center align-items-center">
-          <p>جميع الحقوق محفوظة لـ شركة [اسم الشركة] لتمويل التقاضي © 2024</p>
+          <p class="copyright-content">جميع الحقوق محفوظة لـ شركة [اسم الشركة] لتمويل التقاضي © 2024</p>
         </div>
       </div>
     </footer>
