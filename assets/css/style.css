@@ -38,6 +38,14 @@ ul {
   list-style: none;
 }
 
+li {
+  line-height: 1.75;
+}
+
+p {
+  line-height: 1.75;
+}
+
 .bg-body-gray {
   background-color: var(--body-bg-color-gray);
 }

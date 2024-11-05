@@ -99,6 +99,21 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  #features p {
+    font-size: 14px !important;
+  }
+  #features .item {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  #faq p {
+    line-height: 2 !important;
+  }
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
   nav {
     height: 3.5rem !important;
@@ -446,6 +461,22 @@
 /*   E N D                     F A Q                   S E C T I O N  */
 
 /*  S T A R T                  Y O U R  J O U R N E Y             S E C T I O N  */
+
+@media screen and (max-width: 57px) {
+  /* #journey .timeline::before {
+    content: "" !important;
+    width: 3px !important;
+    height: 80% !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 0 !important;
+    background-color: var(--main-color) !important;
+}
+
+  #journey .container {
+    position: relative !;
+  }  */
+}
 @media screen and (min-width: 300px) and (max-width: 450px ) {
 
 }
