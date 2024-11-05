@@ -245,7 +245,7 @@
 /*   E N D                     H O M E                             S E C T I O N  */
 
 /*  S T A R T                  F E A T U R E S                            S E C T I O N  */
-@media screen and (max-width: 450px ) {
+@media screen and (max-width: 480px ) {
   #features {
 
 
@@ -283,7 +283,7 @@
   }
 }
 
-@media screen and (min-width:500px) and (max-width: 576px) {
+@media screen and (min-width:481px) and (max-width: 576px) {
   #features {
     & h2 {
       margin-bottom: 2.5rem !important;
