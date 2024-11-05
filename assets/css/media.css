@@ -24,6 +24,12 @@
 
 /*  S H A R E D   S T Y L E  */
 
+@media screen and (max-width: 480px) {
+  p, li, span, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.75 !important;
+    letter-spacing: 1px !important;
+  }
+}
 
 @media (max-width: 576px) {
   html {
