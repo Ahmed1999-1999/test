@@ -23,6 +23,8 @@
 */
 
 /*  S H A R E D   S T Y L E  */
+
+
 @media (max-width: 576px) {
   html {
     scroll-padding-top: 3.5rem;
@@ -36,6 +38,14 @@
 
   h2 {
     font-size: 1.75rem !important;
+  }
+
+  p {
+    word-spacing: 1px;
+  }
+
+  li {
+    word-spacing: 1px;
   }
 }
 
