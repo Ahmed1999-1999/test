@@ -8,15 +8,15 @@ const navbarBrandIcon = document.querySelector(".brand-icon");
 const navCollapse = document.querySelector(".navbar-collapse");
 const navToggler = document.querySelector(".navbar-toggler");
 
-navToggler.addEventListener("click", () => {
-  navCollapse.classList.add("invisible");
-  console.log(10);
-  setTimeout(delay, 100);
-});
+// navToggler.addEventListener("click", () => {
+//   navCollapse.classList.add("invisible");
+//   console.log(10);
+//   setTimeout(delay, 100);
+// });
 
-const delay = () => {
-  navCollapse.classList.remove("invisible");
-};
+// const delay = () => {
+//   navCollapse.classList.remove("invisible");
+// };
 
 //////////////////////////////////////////////
 /*   S T A R T                     F A Q                        S E C T I O N  */
