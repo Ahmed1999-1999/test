@@ -18,6 +18,14 @@ const navToggler = document.querySelector(".navbar-toggler");
 //   navCollapse.classList.remove("invisible");
 // };
 
+// window.addEventListener("load", () => {
+//   document
+//     .querySelector(".navbar-collapse")
+//     .classList.remove("navbar-collapse-init");
+// });
+
+
+
 //////////////////////////////////////////////
 /*   S T A R T                     F A Q                        S E C T I O N  */
 const faqsContainer = document.querySelector(".questions");
