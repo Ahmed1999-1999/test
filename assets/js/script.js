@@ -9,12 +9,12 @@ const navCollapse = document.querySelector(".navbar-collapse");
 const navToggler = document.querySelector(".navbar-toggler");
 
 navToggler.addEventListener("click", () => {
-  navCollapse.classList.add("d-none");
+  navCollapse.classList.add("invisible");
   setTimeout(delay, 10);
 });
 
 const delay = () => {
-  navCollapse.classList.remove("d-none");
+  navCollapse.classList.remove("invisible");
 };
 
 //////////////////////////////////////////////
