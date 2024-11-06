@@ -23,6 +23,8 @@
     <!-- M A I N   S T Y L E S H E E T-->
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/media.css" />
+    <!-- J Q U E R Y   L I B-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- G O O G L E   F O N T S -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -54,29 +56,29 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav navbar-items ms-auto mb-2  mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link nav-link-who" aria-current="page" href="#home"
+              <a class="nav-link js-scroll-trigger nav-link-who" aria-current="page" href="#home"
                 ></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-terms" aria-current="page" href="#terms"
+              <a class="nav-link js-scroll-trigger nav-link-terms" aria-current="page" href="#terms"
                 >الشروط و الأحكام</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-faq" aria-current="page" href="#faq"
+              <a class="nav-link js-scroll-trigger nav-link-faq" aria-current="page" href="#faq"
                 >الأسئلة الشائعة</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-start" aria-current="page" href="#start-now"
+              <a class="nav-link js-scroll-trigger nav-link-start" aria-current="page" href="#start-now"
                 >ابدأ الآن</a
               >
             </li>
           </ul>
           <div class="control">
             <div>
-              <span class="language-box">
+              <span class="language-box js-scroll-trigger">
                 <span class="language">
                   <span class="">English</span>
                   <i class="fa-solid fa-globe me-1"></i>
@@ -649,6 +651,12 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
     <script src="assets/js/lang.js"></script>
+    <script type="text/javascript">    
+          $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
+      </script>
+
     
   </body>
 </html>
