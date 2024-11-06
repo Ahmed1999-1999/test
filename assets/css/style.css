@@ -7,7 +7,6 @@
   --main-bg-color: #fff9ec;
   --secondary-bg-color: #ffead0;
 
-
   --main-ff: "Cairo", sans-serif;
   /* --base-ff: */
 }
@@ -253,7 +252,7 @@ nav .collapse .control a:hover {
 /*   S T A R T                 H O M E                         S E C T I O N  */
 #home {
   padding: 5rem 0;
-  background-image: url(../img/about-bg.png);
+  background-image: url(../img/63aa06922eee2216f266aa4d_Home\ page\ -\ Top.webp);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -542,7 +541,7 @@ nav .collapse .control a:hover {
 #journey .timeline::before {
   content: "";
   width: 3px;
-  height: 80%;
+  height: 100%;
   position: absolute;
   left: 50%;
   top: 0;
@@ -799,7 +798,6 @@ margin-inline-end: 0px !important;
 
 
 .lds-ring {
-  /* change color here */
   color: var(--main-color)
 }
 .lds-ring,
