@@ -252,7 +252,7 @@ nav .collapse .control a:hover {
 /*   S T A R T                 H O M E                         S E C T I O N  */
 #home {
   padding: 5rem 0;
-  background-image: url(../img/63aa06922eee2216f266aa4d_Home\ page\ -\ Top.webp);
+  background-image: url(../img/background.png);
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -485,15 +485,13 @@ nav .collapse .control a:hover {
   min-height: 50vh;
 }
 
-
 #journey .timeline {
-  font-size: .875rem;
+  font-size: 0.875rem;
   width: 90%;
   margin: 1.875rem auto;
   line-height: 1.5;
   position: relative;
   transition: all 0.3s;
-  
 }
 
 #journey img {
@@ -545,7 +543,7 @@ nav .collapse .control a:hover {
   position: absolute;
   left: 50%;
   top: 0;
-  background-color: var(--main-color);  
+  background-color: var(--main-color);
 }
 
 #journey .timeline .timeline-item {
@@ -638,8 +636,8 @@ nav .collapse .control a:hover {
 }
 
 #journey .timeline .timeline-content.left {
-margin-inline-start: 0px !important;
-margin-inline-end: 0px !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
 }
 
 #journey .timeline .timeline-item::before,
@@ -650,7 +648,7 @@ margin-inline-end: 0px !important;
   clear: both;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 768px) {
   #journey .timeline {
     margin: 30px;
     padding: 0;
@@ -663,12 +661,12 @@ margin-inline-end: 0px !important;
   #journey .timeline .timeline-item .timeline-icon {
     left: -13px;
   }
-  
+
   #journey .timeline .timeline-item .timeline-content {
     width: 90%;
     float: right;
   }
-  
+
   #journey .timeline .timeline-item .timeline-content::before {
     left: -5px;
     right: inherit;
@@ -775,7 +773,6 @@ margin-inline-end: 0px !important;
 }
 /*   E N D                     F O O T E R                         S E C T I O N  */
 
-
 /* LOADER */
 .loader {
   position: fixed;
@@ -796,9 +793,8 @@ margin-inline-end: 0px !important;
   visibility: hidden;
 }
 
-
 .lds-ring {
-  color: var(--main-color)
+  color: var(--main-color);
 }
 .lds-ring,
 .lds-ring div {
