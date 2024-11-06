@@ -10,7 +10,8 @@ const navToggler = document.querySelector(".navbar-toggler");
 
 navToggler.addEventListener("click", () => {
   navCollapse.classList.add("invisible");
-  setTimeout(delay, 10);
+  console.log(10);
+  setTimeout(delay, 100);
 });
 
 const delay = () => {
