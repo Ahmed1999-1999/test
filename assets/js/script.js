@@ -5,12 +5,18 @@ const navCollapseList = document.querySelector(".navbar-collapse");
 const navbarItems = document.querySelector(".navbar-nav");
 const navbarBrandIcon = document.querySelector(".brand-icon");
 
-// Collapse navbar automatically
-navbar.addEventListener("click", (e) => {
-  const navItem = e.target.closest(".nav-item");
-  if (!navItem) return;
-  navCollapseList.classList.remove("show");
+const navCollapse = document.querySelector(".navbar-collapse");
+const navToggler = document.querySelector(".navbar-toggler");
+
+navToggler.addEventListener("click", () => {
+  navCollapse.classList.add("d-none");
+  setTimeout(delay, 10);
 });
+
+const delay = () => {
+  navCollapse.classList.remove("d-none");
+};
+
 //////////////////////////////////////////////
 /*   S T A R T                     F A Q                        S E C T I O N  */
 const faqsContainer = document.querySelector(".questions");
@@ -385,41 +391,8 @@ const loader = document.querySelector(".loader");
 
 const handleLoader = () => {
   loader.classList.add("loader--hidden");
-  // loader.addEventListener("transitionend", () => {
-  //   document.body.removeChild(loader);
-  // });
-}
+};
 
 window.addEventListener("load", () => {
-  setTimeout(handleLoader,1000)
+  setTimeout(handleLoader, 1000);
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

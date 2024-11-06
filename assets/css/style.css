@@ -152,7 +152,7 @@ nav .navbar-nav .nav-link {
   --bs-navbar-nav-link-margin-x: 5px;
   margin-right: var(--bs-navbar-nav-link-margin-x);
   margin-left: var(--bs-navbar-nav-link-margin-x);
-  /* transition: background 0.5s ease-out, border-radius 0.5s ease-out; */
+  transition: background 0.5s ease-out, border-radius 0.5s ease-out;
 }
 
 nav .navbar-nav .nav-link.active,
@@ -227,26 +227,26 @@ nav .collapse .control .language {
   border-radius: 0.3125rem;
   padding: 10px 15px;
   cursor: pointer;
-  /* transition: filter 0.5s ease-in; */
+  transition: filter 0.5s ease-in;
 
   & svg {
     color: var(--main-color) b;
   }
 }
-/* 
+
 nav .collapse .control .language:hover {
   filter: brightness(0.95);
-} */
+}
 
 nav .collapse .control a {
   font-weight: 600;
   color: rgb(252, 175, 60, 0.75);
-  /* transition: filter 0.5s ease-in; */
+  transition: filter 0.5s ease-in;
 }
 
-/* nav .collapse .control a:hover {
+nav .collapse .control a:hover {
   filter: brightness(0.95);
-} */
+}
 /*   E N D                     N A V B A R                         S E C T I O N  */
 
 /*   S T A R T                 H O M E                         S E C T I O N  */
