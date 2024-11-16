@@ -1,0 +1,583 @@
+/*  S H A R E D   S T Y L E  */
+/*? mobile-s && mobile-m* && mobile-l */
+@media screen and (max-width: 425px) {
+  html {
+    scroll-padding-top: 3rem !important;
+  }
+
+  section {
+    padding-block: 1.5rem !important;
+  }
+
+  h2 {
+    font-size: 1.75rem !important;
+  }
+
+  p {
+    word-spacing: 0px !important;
+  }
+
+  li {
+    word-spacing: 1px !important;
+  }
+}
+/*? Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  html {
+    scroll-padding-top: 4.5rem !important;
+  }
+}
+/*? Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  html {
+    scroll-padding-top: 63.5px !important;
+  }
+}
+
+/*  S T A R T                  N A V B A R                         S E C T I O N  */
+/*? mobile-s && mobile-m* && mobile-l */
+@media screen and (max-width: 425px) {
+  nav {
+    height: 3rem !important;
+
+    & .navbar-brand {
+      padding-block: 0 !important;
+    }
+
+    & .slogan span {
+      font-size: 0.625rem !important;
+    }
+
+    & .nav-link,
+    .nav-link.active,
+    .nav-link.show {
+      font-size: 0.75rem !important;
+    }
+
+    & .navbar-toggler {
+      padding: 0.25rem !important;
+      margin-inline-end: 1rem !important;
+      font-size: 0.625rem;
+    }
+
+    & .navbar-toggler:focus {
+      box-shadow: none !important;
+    }
+
+    & .collapse {
+      padding: 0 !important;
+      /* margin-bottom: 16px !important; */
+      align-items: end !important;
+      justify-content: end !important;
+    }
+
+    & .control {
+      margin-inline: 0px !important;
+      margin-inline-end: 0px !important;
+    }
+
+    & .control div {
+      margin-inline: 0px !important;
+      display: flex !important;
+      flex-direction: row !important;
+      justify-content: space-around !important;
+      align-items: center !important;
+    }
+
+    & .collapse .control a span {
+      font-size: 0.625rem;
+    }
+  }
+}
+/*? Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  nav {
+    height: 3rem;
+
+    & .navbar-brand img {
+      align-self: center;
+    }
+
+    & .navbar-brand .slogan span {
+      font-size: 1rem;
+    }
+  }
+}
+/*? Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  nav {
+    height: 3rem;
+    padding-block: 0.25rem !important;
+
+    & .navbar > .container-xl {
+      align-self: center !important;
+      padding-inline: 8px !important;
+    }
+
+    & .navbar-brand {
+      padding-top: 0 !important;
+    }
+
+    & .navbar-brand img {
+      width: 40px;
+      height: 40px;
+      align-self: center;
+    }
+
+    & .navbar-brand .slogan span {
+      font-size: 1rem;
+    }
+  }
+}
+/*? Laptop-L */
+@media screen and (min-width: 1025px) and (max-width: 1444px) {
+  nav {
+    height: 3.5rem;
+    padding-block: 1.25rem !important;
+
+    & .navbar > .container-xl {
+      align-self: center !important;
+      padding-inline: .5rem !important;
+    }
+
+    & .navbar-brand {
+      padding-top: 0 !important;
+    }
+
+    & .navbar-brand img {
+      width: 48px;
+      height: 48px;
+      align-self: center;
+    }
+
+    & .navbar-brand .slogan span {
+      font-size: 1rem;
+    }
+  }
+}
+/*? Large Monitors */
+@media screen and (min-width: 1445px) {
+  nav {
+    height: 4rem;
+    padding-block: .5rem !important;
+
+    & .navbar > .container-xl {
+      align-self: center !important;
+      padding-inline: 8px !important;
+    }
+
+    & .navbar-brand {
+      padding-top: 0 !important;
+    }
+
+    & .navbar-brand img {
+      width: 48px;
+      height: 48px;
+      align-self: center;
+    }
+
+    & .navbar-brand .slogan span {
+      font-size: 1rem;
+    }
+  }
+}
+
+/*   E N D                     N A V B A R                         S E C T I O N  */
+
+/*  S T A R T                  S I G N   I N                             S E C T I O N  */
+
+/*? mobile-s && mobile-m* && mobile-l */
+@media screen and (max-width: 425px) {
+  #sign-in .account .account-type {
+  flex-direction: column !important;
+}
+}
+
+/*? Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  #sign-in {
+    padding: 3rem 0;
+    min-height: fit-content;
+  }
+
+  #sign-in .container {
+    height: fit-content;
+  }
+
+  #sign-in .sign-in-title h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #sign-in .sign-in-title span {
+    font-size: 1.5rem;
+  }
+
+  #sign-in .account {
+    height: auto;
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+
+  #sign-in .account .account-type {
+    flex-direction: row;
+
+  }
+
+  #sign-in .account .account-type .account-individual,
+  #sign-in .account .account-type .account-entity {
+    width: 8rem;
+  }
+
+  #sign-in .account .account-type .account-individual svg,
+  #sign-in .account .account-type .account-entity svg {
+    font-size: 1.5rem;
+  }
+
+  #sign-in .account .account-type .account-individual .account-type-title,
+  #sign-in .account .account-type .account-entity .account-type-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #222333;
+    text-align: center;
+  }
+}
+
+/*? Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #sign-in {
+    padding: 3rem 0;
+    min-height: fit-content;
+  }
+
+  #sign-in .container {
+    height: fit-content;
+  }
+
+  #sign-in .sign-in-title h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #sign-in .sign-in-title span {
+    font-size: 1.5rem;
+  }
+
+  #sign-in .account {
+    height: auto;
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  #sign-in .account .account-type {
+    flex-direction: row;
+  }
+
+  #sign-in .account .account-type .account-individual,
+  #sign-in .account .account-type .account-entity {
+    width: 15rem;
+  }
+
+  #sign-in .account .account-type .account-individual svg,
+  #sign-in .account .account-type .account-entity svg {
+    font-size: 2rem;
+  }
+
+  #sign-in .account .account-type .account-individual .account-type-title,
+  #sign-in .account .account-type .account-entity .account-type-title {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #222333;
+    text-align: center;
+  }
+}
+
+/*? Laptop-L */
+@media screen and (min-width: 1025px) and (max-width: 1444px) {
+  #sign-in {
+    padding: 3rem 0;
+    min-height: fit-content;
+  }
+
+  #sign-in .container {
+    height: fit-content;
+  }
+
+  #sign-in .sign-in-title h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #sign-in .sign-in-title span {
+    font-size: 1.5rem;
+  }
+
+  #sign-in .account {
+    height: auto;
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  #sign-in .account .account-type {
+    flex-direction: row;
+  }
+
+  #sign-in .account .account-type .account-individual,
+  #sign-in .account .account-type .account-entity {
+    width: 18rem;
+  }
+
+  #sign-in .account .account-type .account-individual svg,
+  #sign-in .account .account-type .account-entity svg {
+    font-size: 2.5rem;
+  }
+
+  #sign-in .account .account-type .account-individual .account-type-title,
+  #sign-in .account .account-type .account-entity .account-type-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #222333;
+    text-align: center;
+  }
+}
+
+/*? Large Monitors */
+@media screen and (min-width: 1445px) {
+  #sign-in {
+    padding: 3rem 0;
+    min-height: fit-content;
+  }
+
+  #sign-in .container {
+    height: fit-content;
+    max-width: 1800px !important;
+  }
+
+  #sign-in .sign-in-title {
+    margin-bottom: 4rem;
+  }
+
+  #sign-in .sign-in-title h2 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+  #sign-in .sign-in-title span {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+
+  #sign-in .account {
+    height: auto;
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+
+  #sign-in .account .account-title {
+    font-size: 1.75rem;
+    margin-bottom: 6rem;
+  }
+
+  #sign-in .account .account-type {
+    flex-direction: row;
+  }
+
+  #sign-in .account .account-type .account-individual,
+  #sign-in .account .account-type .account-entity {
+    width: 2rem;
+  }
+
+  #sign-in .account .account-type .account-individual svg,
+  #sign-in .account .account-type .account-entity svg {
+    font-size: 2.5rem;
+  }
+
+  #sign-in .account .account-type .account-individual .account-type-title,
+  #sign-in .account .account-type .account-entity .account-type-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #222333;
+    text-align: center;
+  }
+}
+
+/*   E N D                     S I G N   I N                             S E C T I O N  */
+
+/*   S T A R T                 F O R M                             S E C T I O N  */
+/*? mobile-s && mobile-m* && mobile-l */
+@media screen and (max-width: 425px) {}
+/*? Tablet */
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .section-form {
+    width: 60% !important;
+    padding: 2rem !important;
+
+    & .form-element button {
+      width: 100%;
+      height: 48px !important;
+      padding-block: 0.5rem;
+    }
+
+    & label {
+      font-size: 1rem !important;
+      font-weight: 400;
+      margin-bottom: .5rem;
+    }
+
+    & a {
+      font-size: 1rem !important;
+      font-weight: 400;
+    }
+
+    & .form-element button {
+      width: 100%;
+      height: 48px !important;
+      padding-block: 0.5rem;
+    }
+  }
+}
+/*? Laptop */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .section-form {
+    width: 60% !important;
+    padding: 2rem !important;
+  }
+
+  & label {
+      font-size: 1rem !important;
+      font-weight: 400;
+      margin-bottom: .5rem;
+    }
+
+    & a {
+      font-size: 1rem !important;
+      font-weight: 400;
+    }
+
+  & .form-element button {
+      width: 100%;
+      height: 48px !important;
+      padding-block: 0.5rem;
+    }
+}
+/*? Laptop-L */
+@media screen and (min-width: 1025px) and (max-width: 1444px) {
+  .section-form {
+    width: 60% !important;
+  }
+
+  & label {
+      font-size: 1rem !important;
+      font-weight: 400;
+      margin-bottom: .5rem;
+    }
+
+    & a {
+      font-size: 1rem !important;
+      font-weight: 400;
+    }
+
+  & .form-element button {
+      width: 100%;
+      height: 48px !important;
+      padding-block: 0.5rem;
+    }
+}
+/*? Large Monitors */
+@media screen and (min-width: 1445px) {
+  .section-form {
+    width: 60% !important;
+
+  & .close-btn {
+  position: absolute;
+  font-size: 1.5rem;
+  font-weight: 700;
+  top: 0.625rem;
+  right: 0.625rem;
+  width: 1.75rem !important;
+  height: 1.75rem !important;
+  background-color: #888;
+  text-align: center;
+  line-height: 1.5;
+  border-radius: 0.9375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  }
+
+    & h2 {
+      font-size: 3.5rem !important;
+      font-weight: 900;
+    }
+
+    & label {
+      font-size: 1.75rem !important;
+      font-weight: 500;
+      margin-bottom: .5rem;
+    }
+
+    & a {
+      font-size: 1.75rem !important;
+      font-weight: 500;
+    }
+
+    & button {
+      height: 64px !important;
+      padding-block: 0.5rem;
+      font-size: 1.75rem !important;
+    }
+  }
+}
+/*   E N D                     F O R M                             S E C T I O N  */
+
+/*  S T A R T                  F O O T E R                         S E C T I O N  */
+@media screen and (max-width: 576px) {
+  #footer {
+    & a {
+      font-size: 1rem !important;
+      margin-bottom: 0.75rem;
+    }
+    & h4 {
+      font-size: 1rem !important;
+      margin-bottom: 0.75rem;
+    }
+    & p {
+      font-size: 0.875rem !important;
+    }
+  }
+
+  #footer .copyright {
+    font-size: 10px;
+    padding-block: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #footer {
+    & a {
+      font-size: 1rem !important;
+      margin-bottom: 0.75rem;
+    }
+    & h4 {
+      font-size: 1rem !important;
+      margin-bottom: 0.75rem;
+    }
+    & p {
+      font-size: 0.875rem !important;
+    }
+  }
+
+  #footer .copyright {
+    font-size: 10px;
+    padding-block: 3rem;
+  }
+}
+
+@media (max-width: 700px) and (orientation: landscape) {
+  #footer {
+    & .container {
+      max-width: fit-content !important;
+      margin-inline: auto !important;
+    }
+  }
+}
+/*   E N D                     F O O T E R                         S E C T I O N  */
